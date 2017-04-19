@@ -7,10 +7,13 @@ library(dplyr)
 
 # The data.frame flights should now be accessible to you.  View it, 
 # and get some basic information about the number of rows/columns
-
-
+View(flights)
+dim(flights)
+nrow(flights)
+ncol(flights)
+?flights
 # Add a column that is the amount of time gained in the air (`arr_delay` - `dep_delay`)
-
+flights <- mutate(flights, gain = )
 
 # Sort your data.frame desceding by the column you just created
 
